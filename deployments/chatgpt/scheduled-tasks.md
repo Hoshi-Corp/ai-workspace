@@ -30,5 +30,12 @@ END:VEVENT
 Check the latest actions by Canadian Prime Minister Mark Carney and his government. Send me a concise daily summary focused on concrete actions rather than rhetoric. Cover international relations and trade diversification; investment in Canada's domestic economy; interprovincial trade; major infrastructure and industrial projects; defence-related industrial investment; measures affecting major economic sectors; immigration policy and implementation, including permanent and temporary immigration, international students, foreign workers, asylum/refugee policy, processing and integration when relevant; and health policy, including federal health funding, healthcare workforce, pharmacare, dental care, public health, provincial/federal initiatives, and measures that could materially affect access, capacity, wait times, or costs. Highlight credible evidence of economic, immigration, and healthcare outcomes when available. Clearly distinguish newly announced policies from measures actually implemented and from measurable outcomes. Include important developments since the previous brief, cite reliable current sources, and mention when there is no meaningful new development rather than padding the summary.
 ```
 
+### Restaurant Curator
+- **Schedule:** Weekly, every Thursday. Time of day and timezone were not specified in the source conversation.
+- **Purpose:** Curate a selective set of culturally distinctive restaurants and food experiences, primarily in Ottawa and secondarily along the Toronto–Montreal corridor.
+- **Definition:** [Workflow overview](../../workflows/restaurant-curator/README.md) · [Full task prompt](../../workflows/restaurant-curator/prompt.md)
+- **Notes:** Preserved from the user's existing scheduled task in [Curate Ottawa Restaurants](https://chatgpt.com/c/6a9c8ed5-9c00-83e9-bf15-93aab586dd79). Recorded from the conversation on 2026-09-28; live task settings have not been independently verified. Regional depth and experiences such as Filipino Kamayan set the bar; exclude Ottawa Chinatown Night Market as a food discovery.
+
 ## Notes
-- Last synced: Sep 28, 2026 (Carney Daily Brief only, from the supplied task definition).
+- Restaurant Curator definition recorded on 2026-09-28 from the source conversation. Full Tasks-settings sync remains pending.
+- Carney Daily Brief synced on 2026-09-28 from the supplied task definition.

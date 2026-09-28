@@ -15,4 +15,4 @@ See `templates/workflow-template/` for a starting point.
 
 ## Current workflows
 
-None yet.
+- [Restaurant Curator](restaurant-curator/) — selective Thursday recommendations for culturally distinctive meals in Ottawa and along the Toronto–Montreal corridor.
