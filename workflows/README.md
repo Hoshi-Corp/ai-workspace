@@ -15,4 +15,4 @@ See `templates/workflow-template/` for a starting point.
 
 ## Current workflows
 
-None yet.
+- [Ottawa Event Curator](ottawa-event-curator/README.md) — daily event curation for Ottawa and Japanese-artist events in the Toronto and Montreal regions.
