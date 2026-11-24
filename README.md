@@ -8,12 +8,14 @@ Companion pieces:
 
 ## Structure
 
+- `instructions/` — standing behaviour rules pasted into every platform's custom instructions (always on).
+- `prompts/` — copy-paste prompt templates for on-demand tasks; work on any platform.
 - `workflows/` — reusable multi-step prompt workflows. Each one gets its own folder: `README.md` (purpose, inputs, expected output), `prompt.md` (the reusable instructions), `examples/` (sample inputs and good outputs).
 - `skills/` — packaged, reusable instructions for a specific kind of task (Claude Skills and equivalents). Each one gets its own folder with a `SKILL.md`.
 - `agents/` — custom agents. Each one gets its own folder: `README.md` (responsibilities and boundaries), `instructions.md`.
 - `deployments/` — what's actually deployed and running right now, organized by platform:
-  - `chatgpt/` — ChatGPT scheduled tasks and custom GPTs
-  - `claude/` — Claude scheduled tasks, projects, and plugins
+  - `chatgpt/` — ChatGPT scheduled tasks, custom GPTs, and custom instructions
+  - `claude/` — Claude scheduled tasks, projects, plugins, standing instructions, and installed skills
   - `codex/` — Codex automations (placeholder — not in use yet)
 - `templates/` — starter files for adding a new workflow, skill, or agent.
 - `resources/` — external resources worth learning from or adopting.
