@@ -20,6 +20,14 @@ Companion pieces:
 - `templates/` — starter files for adding a new workflow, skill, or agent.
 - `resources/` — external resources worth learning from or adopting.
 
+## Install the skills in Claude
+
+```
+/plugin install ai-workspace --marketplace Hoshi-Corp/ai-workspace
+```
+
+See `skills/README.md` for Claude desktop / claude.ai.
+
 ## Status
 
 Just getting started (Sep 2026). First pass is cataloging what's already running as scheduled automations across ChatGPT and Claude, before building new agents/skills/workflows here.

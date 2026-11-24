@@ -1,0 +1,12 @@
+{
+  "name": "ai-workspace",
+  "description": "Masaru's personal skills from Hoshi-Corp/ai-workspace",
+  "owner": { "name": "Hoshi Corp" },
+  "plugins": [
+    {
+      "name": "ai-workspace",
+      "source": "./",
+      "description": "Thinking skills: red-team, expert-review, decision-matrix, opportunity-scan, goal-system, deep-read"
+    }
+  ]
+}

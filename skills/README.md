@@ -21,7 +21,9 @@ Not skills on purpose: `explain-two-levels` and `learning-plan` overlap Claude's
 
 ## Installing
 
-- **Claude Code:** symlink each folder into `~/.claude/skills/`, e.g. `ln -s "$PWD/red-team" ~/.claude/skills/red-team`. Symlinks keep this repo the single source.
-- **Claude.ai / desktop:** zip the skill folder and upload it under Settings → Capabilities → Skills.
+This repo is a Claude plugin marketplace (`.claude-plugin/marketplace.json`); the skills install as the `ai-workspace` plugin, invoked as `/ai-workspace:<skill>`.
+
+- **Claude Code:** `/plugin install ai-workspace --marketplace Hoshi-Corp/ai-workspace`. Update with `/plugin marketplace update ai-workspace`.
+- **Claude desktop / claude.ai:** Customize → Plugins → Add → Add marketplace → `Hoshi-Corp/ai-workspace`, then install `ai-workspace`. Private repo: connect GitHub and give the Claude GitHub App access when asked. Turn on "Sync automatically" to pick up merges.
 
 Record what's installed where in `deployments/claude/`.
